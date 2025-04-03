@@ -11,15 +11,12 @@
 
 * **정유현** : dasein414@naver.com
 * **양민지** : chymj1217@naver.com
+* 
+<img src="https://github.com/user-attachments/assets/99bc6561-8bce-4e35-82e7-7edc5cc4e439" width="20%" height="20%" title="악필이" alt="악필이"></img>
 
-![악필이](https://github.com/user-attachments/assets/99bc6561-8bce-4e35-82e7-7edc5cc4e439)
 <details>
   <summary>AKFEEL 마스코트 악필이 소개</summary>
   <div>
-    
-    
-    
-
       - **이름** : 악필이
       - **나이** : 1살 
 
