@@ -13,10 +13,14 @@
 * **양민지** : chymj1217@naver.com
 
 **AKFEEL 마스코트 악필이 소개**
-
-<img src="https://github.com/user-attachments/assets/99bc6561-8bce-4e35-82e7-7edc5cc4e439" width="20%" height="20%" title="악필이" alt="악필이"></img>  
-- **이름** : 악필이
-- **나이** : 1살
-- 오늘도 손글씨 인식을 위해 노력하고 있다.
-
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/99bc6561-8bce-4e35-82e7-7edc5cc4e439" width="150" alt="악필이"></td>
+    <td>
+      <strong>이름</strong>: 악필이<br>
+      <strong>나이</strong>: 1살<br>
+      오늘도 손글씨 인식을 위해 노력하고 있다.
+    </td>
+  </tr>
+</table>
 
