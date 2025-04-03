@@ -9,16 +9,18 @@
 
 **팀원소개**
 
-* 정유현 : dasein414@naver.com
-* 양민지 : chymj1217@naver.com
+* **정유현** : dasein414@naver.com
+* **양민지** : chymj1217@naver.com
 
 <details>
   <summary>AKFEEL 마스코트 악필이 소개</summary>
   <div>
-    <img src="[/path/to/img.jpg](https://github.com/user-attachments/assets/e71ccef4-b1c6-4fc4-9810-ce3b3bf1ce80)" width="30%" height="30%" title="악필이" alt="악필이 이미지"></img>
     
-      - 이름 : 악필이
-      - 나이 : 1살 
+    ![악필이](https://github.com/user-attachments/assets/99bc6561-8bce-4e35-82e7-7edc5cc4e439)
+    
+
+      - **이름** : 악필이
+      - **나이** : 1살 
 
       - 오늘도 손글씨 인식을 위해 노력하고 있다.
   </div>
