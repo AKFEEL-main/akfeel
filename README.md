@@ -1,7 +1,7 @@
 ## AKFEEL 팀 프로젝트
 **AKFEEL 팀은 손글씨 이미지를 텍스트로 변환하는 목표를 가진 팀입니다.**
 
-현재 해당프로젝트를 개선중에 있습니다.
+현재 해당프로젝트는 개선중에 있습니다.
 
 ![웹페이지 화면](https://github.com/user-attachments/assets/535baa24-8f78-42ce-999d-ceb34081a811)
 
