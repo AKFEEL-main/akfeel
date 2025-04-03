@@ -1,0 +1,13 @@
+.env
+.env.*
+.venv/
+venv/
+.vscode
+__pycache__
+**/__pycache__
+chatbot.zip
+key.json
+modeltest/
+akmodel/
+akimg/
+*.log

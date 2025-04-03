@@ -1,0 +1,22 @@
+.akbg{
+    background-color:  #ebe8e4 ;
+    height: 100vh;
+    /* height: 100vh; 내용이 길어지면 오토로 변경할 예정*/
+}
+
+.akfbtn{
+    text-decoration: none;
+    color: #000;
+}
+
+.akbtbox{
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 100%;
+
+}
+
+.mascotex{
+    margin-left: 1%;
+}
