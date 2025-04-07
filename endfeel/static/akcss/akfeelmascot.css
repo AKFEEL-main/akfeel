@@ -1,7 +1,6 @@
 .akbg{
     background-color:  #ebe8e4 ;
-    height: 100vh;
-    /* height: 100vh; 내용이 길어지면 오토로 변경할 예정*/
+    height: auto;
 }
 
 .akfbtn{
@@ -19,4 +18,26 @@
 
 .mascotex{
     margin-left: 1%;
+    width: 100%;
+    height: 100%;
+}
+
+.pencil_container3 {
+    width: 60%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.aktablecss{
+    border: 1px solid black;
+}
+
+.bigaktable {
+    width: 60%;
+    table-layout: fixed;
+    margin: 0 auto;
+    border-collapse: collapse;
 }
