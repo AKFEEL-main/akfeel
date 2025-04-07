@@ -1,0 +1,40 @@
+.logo_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.navber_style{
+    background-color: #f7f6f5;
+    width: 100%;
+    height:10%;
+    border-bottom: 2px solid  #d6d3cf;
+}
+
+.logo_link{
+    text-decoration: none;
+    color: #010523;
+    font-size: 180%;
+    margin-left: 1%;
+    /* padding: 15% 0% 0% 5%; */
+    display: flex;
+    /* align-items: center; */
+    gap: 10px; 
+}
+
+.onego{
+    margin: auto;
+    border: 2px solid #010523;
+    width: 80vw;
+    height: 10vh;
+    border-radius: 3px;
+}
+
+.pencil-container2{
+    width: 8%;
+    height: 8%;
+    transition: transform 0.3s ease-in-out;
+}
+.pencil-container2:hover {
+    /* 10% 확대 */
+    transform: scale(1.1);  
+}

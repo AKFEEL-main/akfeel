@@ -1,0 +1,595 @@
+.basebg{
+    background-color: #ebe8e4 !important; 
+    min-height: 100vh;
+}
+
+
+.akfeeelel1{
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+
+}
+.akan{
+    text-align: center;
+}
+
+.akfeeelel2{
+    display: inline-block;
+    width: 22.5%;
+    height: 22.5%;
+}
+
+.mainaktxt{
+    font-size: 1.2em;
+}
+
+/* 구글 폰트 */
+.jua-regular {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nanum-gothic-coding-regular {
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.useDescription{
+    border: none;
+    margin-left: 1%;
+    background-color: #ebe8e4;
+    font-size: 1.2em;
+}
+
+
+.container {
+    width: 85%;
+    max-width: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    height: auto;
+    background: white;
+    padding: 2%;
+    border-radius: 2%;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+h2{
+    text-align: center;
+    margin: 0%;
+}
+
+.chonego{
+    margin-top: 1%;
+}
+
+
+.right{
+    margin-left: 12%;
+    width: 37vw;
+    padding: 0%;
+}
+
+.button_base {
+    display: inline-block;
+    padding: 1%;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 20%;
+    height: 10%;
+  
+}
+.button_base:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+
+.upload-btn {
+    background-color: #5B7F9E;
+    margin-bottom: 1%;
+    color: white;
+}
+.upload-btn:hover {
+    background-color: #496A86;
+
+}
+
+.dle-btn, .save-btn {
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+.dle-btn {
+    background-color: #C95A5A;
+    color: white;
+}
+
+.dle-btn:hover {
+    background-color: #A94A4A;
+}
+
+.copy-btn{
+    background-color: #D4915D; 
+    color: white;
+    margin-bottom: 1%;
+
+}
+
+.copy-btn:hover {
+    background-color: #B8784B;
+}
+
+.save-btn {
+    background-color:  #8873A5; 
+color: white;
+}
+.save-btn:hover {
+    background-color: #705E89;
+}
+
+.footer_copy {
+    width: 100%;           
+    height: 10%;
+    background-color: #f7f6f5; 
+    text-align: center;
+    padding: 1% 0%;
+    /* margin-top: 2%; */
+    border-top: 1px solid #d6d3cf;
+    font-size: 80%;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5.2%;
+}
+
+.btn-group1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 9.5%;
+}
+
+.chatbot-btn {
+    background-color: #ffc107;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropbox{
+    display: block;
+    border: 1px solid #8e97f852;
+    border-radius: 2%;
+    text-align: center;
+    cursor: pointer;
+    width: 35vw;
+    height: 90vh;
+
+}
+
+.dropAreaBox{
+    text-align: center;
+    /* width: 37vw; */
+    padding: 0%;
+    /* border-right: 1px solid  #8e97f852; */
+    margin-right: 3.5%;
+}
+
+.dropbox:hover{
+    background-color: #cfd7ee5f;
+}
+
+.usebtn{
+    margin: 3% 2%;
+    padding: auto;
+    width: 15vw;
+    background: #8e97f852;
+    font-size: 0.8em;
+}
+
+.usebtn:hover{
+    background: #8d96f9c7;
+}
+
+#imagePreview {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#textOutput {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 35vw;
+    height: 90vh;
+    padding: 2%;
+    font-size: 100%;
+    border: 2px solid #8e97f852; 
+    border-radius: 5px;
+    overflow-x: auto;
+    overflow-y: auto;
+    background-color: white;
+    gap: 1px; 
+    box-sizing: border-box;
+}
+
+/*원고지*/
+.og-cell {
+    width: 100%; 
+    height: 100%;
+    aspect-ratio: 1 / 1; 
+    border: 1px solid #8e97f852;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-family: "Gungseo", "Nanum Gothic", sans-serif;
+    line-height: 1;
+    padding: 0%;
+}
+
+/*유선지*/
+#textOutput.lined {
+    display: block;
+    white-space: nowrap;
+    font-size: 2vw;
+    font-family: "Nanum Gothic", sans-serif;
+    line-height: 3vw;
+    padding: 1%;
+    border: 2px solid #8e97f852;
+    border-radius: 5px;
+    background: repeating-linear-gradient(white 0px, white 3vw, #8e97f8cc 3.2vw);
+}
+
+#textOutput.lined div {
+    display: inline-block;
+    text-align: center;
+    width: 2.5vw;
+    height: 3vw;
+    font-size: 2vw;
+    line-height: 3vw;
+}
+
+
+/*백지*/
+#textOutput.blank {
+    display: block;
+    white-space: pre-wrap;
+    font-size: 2vw;
+    font-family: "Nanum Gothic", sans-serif;
+    padding: 2%;
+    border: 2px solid #8e97f852;
+    border-radius: 5px;
+    background-color: white;
+    width: 35vw;
+    height: 80vh;
+    overflow-y: auto;
+}
+
+#textOutput.blank div {
+    display: inline;
+    border: none;
+    width: auto;
+    height: 80vh;
+    font-size: inherit; 
+    line-height: inherit;
+    background: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+#imgText{
+    padding-top: 40vh;
+    text-align: center;
+    margin: 0%;
+    font-size: 1.5em;
+    position: relative;
+    overflow: visible; 
+
+}
+
+.useex{
+    border: 1px solid white;
+    border-radius: 5px;
+    display: none;
+    margin-left: 1%;
+    padding: 1%;
+    background-color: #FAF9F6;
+}
+
+#aktitle{
+    font-size: 1.1em;
+}
+
+
+.copy-alert {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 0.5%;
+    border-radius: 5px;
+    font-size: 1em;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+#statusPopup {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 0.5%;
+    border-radius: 5px;
+    font-size: 1em;
+    top: 15%;
+    left: 13%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+#modelSelect{
+    margin-bottom: 1%;
+    border-radius: 5px;
+    border:  white;
+    font-size: 1.2em;
+    background-color:  #ebe8e4;
+
+}
+
+#modelSelect:hover {
+    cursor: pointer;
+}
+
+#blankBtn:hover, #linedBtn:hover, #gridBtn:hover {
+    background-color: #3a7bd5;
+    color: white;
+}
+
+#cls_use_button{
+    margin-bottom: 1%;
+    background-color: #5da4f0;
+    color: white;
+}
+
+#cls_use_button:hover {
+    background-color: #007bff;
+}
+
+/* 0. 데스크탑 */
+@media (min-width: 901px) and (max-height: 699px) {
+    .container {
+        min-height: 100vh;
+        height: auto;
+    }
+    #textOutput, .dropbox {
+        height: 80vh;
+    }
+    #imgText {
+        padding-top: 30vh;
+    }
+}
+
+/* 1. 모바일 */
+@media (max-width: 900px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: auto;
+        /* min-height: 150vh; */
+        gap: 20px;
+    }
+
+    .dropAreaBox, .right {
+        width: 100%;
+        max-width: none;
+        padding: 0;
+    }
+    .dropbox{
+        margin-left: 7%;
+    }
+    .dropbox, #textOutput {
+        width:90%;
+        height: 50vh;
+    }
+
+    .og-cell {
+        font-size: 2.5vw;   
+    }
+
+    #textOutput.blank {
+        height: 60vh;
+        width: 90%;
+    }
+
+    #textOutput.lined {
+        background: repeating-linear-gradient( white 0px, white 4.8vw, #8e97f8cc 5vw );
+    }
+
+    #imgText {
+        padding-top: 25vh;
+        font-size: 1.5em;
+    }
+
+    .pencil-container {
+        visibility: hidden;
+    }
+
+    .btn-group{
+        margin-right: 10%;
+    }
+}
+
+/* 2. 초소형 모바일 */
+@media (max-width: 620px) {
+    #imgText {
+        font-size: 1em;
+        padding: 0%;
+        margin-top: 20%;
+    }
+    
+    #statusPopup{
+        font-size: 0.5em;
+        width: 20%;
+        margin-left: 8%;
+    }
+    .useex{
+        font-size: 0.5em;
+    }
+    .useDescription, #modelSelect{
+        font-size: 1em;
+    }
+
+    #cls_use_button{
+        width: 15%;
+        height: 20%;
+        font-size: 1em;
+    }
+
+    .button_base {
+        width: 20%;
+        height: 30%;
+        font-size: 0.5em;
+    }
+
+    .pencil-container {
+        visibility: hidden;
+    }
+
+}
+
+/* 높이가 작을때 챗봇 x 버튼 스타일 */
+@media (max-height: 450px) {
+    #close-chatbot {
+        font-size: 0.5em !important;
+    }
+
+    #chatbot-btn{
+        font-size: 0.8em !important;
+        width: 60% !important;
+    }
+}
+
+/* 3. 초초소형 모바일 */
+@media (max-width: 400px) and (max-height: 699px) {
+
+    #close-chatbot{
+        font-size: 0.4em;
+        height: 100%;
+    }
+
+    .answerai{
+        font-size: 0.8em;
+    }
+
+    .container {
+        height: auto;
+        min-height: unset;
+        padding-bottom: 1%;
+        margin-bottom: 0%;
+    }
+
+    .dropbox, #textOutput {
+        height: 25vh !important;
+    }
+
+    #imgText {
+        font-size: 0.8em;
+    }
+
+    .pencil-container {
+        visibility: hidden;
+    }
+}
+
+/* 4. 모바일-> 높이 큼 */
+@media (max-width: 900px) and (min-height: 1000px) {
+    .container {
+        height: auto;
+        min-height: unset;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 500px) and (max-height: 999px) {
+    .dropbox, #textOutput{
+        height: 20vh !important;
+    }
+}
+
+/* 5. 데스크탑 */
+@media (min-width: 901px) and (min-height: 900px) and (max-height: 1299px) {
+    .container {
+        height: 60vh;
+    }
+
+    #textOutput, .dropbox {
+        height: 40vh !important; 
+    }
+
+    #imgText {
+        padding-top: 10vh;
+    }
+}
+
+/* 6. 데스크탑-> 낮은높이 */
+@media (min-width: 901px) and (min-height: 700px) and (max-height: 899px) {
+    .container {
+        height: auto;
+        min-height: unset;
+        padding-bottom: 1%;
+        margin-bottom: 0%;
+    }
+
+    #textOutput, .dropbox {
+        height: 60vh !important;
+    }
+
+    #imgText {
+        padding-top: 20vh !important;
+    }
+}
+
+/* 7. 아주 큰 화면 */
+@media (min-height: 1300px) {
+    .container {
+        height: 55vh;
+    }
+
+    #textOutput, .dropbox {
+        height: 40vh !important;
+    }
+
+    #imgText {
+        padding-top: 15vh;
+    }
+}
+
+/* 8. 아주 아주 큰 화면 */
+@media (min-width: 2560px) and (min-height: 1600px) {
+    .container {
+        height:  88vh;
+    }
+
+    #textOutput, .dropbox {
+        height: 70vh !important;
+    }
+
+    #imgText {
+        padding-top: 30vh;
+    }
+}

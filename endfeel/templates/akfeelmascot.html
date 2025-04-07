@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>akfeel | 악필 복원 OCR 악필이</title>
+
+    <!-- 부트스트랩 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='akcss/main.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='akcss/navbar.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='akcss/akfeelmascot.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- 네비게이션바 -->
+    {% include "navbar.html" %}
+    <div class="akbg">
+        <button class="akbtbox"><a href="{{ url_for('akmain.index') }}" class="akfbtn">메인페이지로 이동</a></button>
+        <div class="mascotex">
+            <strong> AKFEEL 팀의 마스코트 악필이를 소개합니다. </strong>
+            <br><br>
+            <table class="aktablecss bigaktable">
+                <tr class="aktablecss">
+                    <td class="aktablecss"><img src="{{ url_for('static', filename='akimg/akfeelmascot.png') }}" alt="악필이" title="마스코트 악필이" class="pencil_container3"></td>    
+                    <td class="aktablecss"><strong>이름 : </strong> 악필이</td>
+                    <td class="aktablecss"><strong>나이 : </strong> 1 살</td>
+                    <td class="aktablecss"><strong>좋아하는 것 : </strong> 소풍, 악필</td>
+                    <td class="aktablecss"><strong>오늘도 악필 인식을 위해 노력하고 있다.</td>
+                </tr>
+            </table>
+            
+        </div>
+        <br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br>
+    </div>
+
+    <footer class="footer_copy">
+        copyright 2025 &copy; akfeezl
+        <br>
+        정유현 : dasein414@naver.com, 
+        양민지 : chymj1217@naver.com
+    </footer>
+    
+    
+    <!-- 부트스트랩 JS -->
+    <script src="{{ url_for('static', filename='akjs/main.js') }}" defer></script>
+    <script src="{{ url_for('static', filename='akjs/mainimg_upload.js') }}" defer></script>
+    <script src="{{ url_for('static', filename='akjs/chatbot.js') }}" defer></script>
+    
+</body>
+</html>
